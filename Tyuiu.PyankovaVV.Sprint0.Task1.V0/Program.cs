@@ -14,7 +14,7 @@ namespace Tyuiu.PyankovaVV.Sprint0.Task1.V0
             string name = "Вика";
             int age = 18;
             Console.WriteLine("Здравствуйте, меня зовут " + name +"," + " мне " + age + " лет!");
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }

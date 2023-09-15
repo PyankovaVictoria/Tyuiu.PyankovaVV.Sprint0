@@ -10,8 +10,6 @@ namespace Tyuiu.PyankovaVV.Sprint0.Task2.V0
     {
         static void Main(string[] args)
         {
-            // Вызов класса DataService и метода GetMessage
-            //из библиотеки Tyuiu.BrovinaYV.Sprint0.V0.Lib
             Console.WriteLine(DataService.GetMessage("Вика"));
             Console.ReadKey();
         }

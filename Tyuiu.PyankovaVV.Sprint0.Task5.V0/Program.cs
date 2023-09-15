@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//Подключённые библиотеки
 using Tyuiu.PyankovaVV.Sprint0.Task5.V0.Lib;
 
 namespace Tyuiu.PyankovaVV.Sprint0.Task5.V0
@@ -13,11 +12,9 @@ namespace Tyuiu.PyankovaVV.Sprint0.Task5.V0
     {
         static void Main(string[] args)
         {
-            //Пример линейной структуры
             Console.WriteLine("A+B=" + DataService.Addition(1, 5));
             Console.WriteLine("A-B=" + DataService.Subtraction(15, 5));
             Console.WriteLine("A*B=" + DataService.Multiplication(10, 10));
-            //Пример разветляющейся структуры находится в библиотеке классов в методе Devision
             Console.WriteLine("A/B=" + DataService.Division(9, 3));
             Console.ReadKey();
 

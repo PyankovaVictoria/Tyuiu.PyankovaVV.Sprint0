@@ -3,7 +3,7 @@ using System;
 
 using Tyuiu.PyankovaVV.Sprint0.Task7.V0.Lib;
 
-namespace Tyuiu.PyankovaVV.Sprint0.Tak7.V0.Test
+namespace Tyuiu.PyankovaVV.Sprint0.Task7.V0.Test
 {
     [TestClass]
     public class DataServiceTest
